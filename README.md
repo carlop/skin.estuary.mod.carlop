@@ -1,4 +1,4 @@
-# Estuary mod by Carlop
+# Estuary mod
 
 Custom mod of Estuary skin for Kodi.
 
