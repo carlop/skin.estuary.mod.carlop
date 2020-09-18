@@ -75,7 +75,7 @@
 				<top>115</top>
 				<visible>Integer.IsGreater(Container($PARAM[list_id]).NumItems,0) | Container($PARAM[list_id]).IsUpdating</visible>
 				<right>0</right>
-				<height>503</height>
+				<height>550</height>
 				<include content="WidgetListCommon">
 					<param name="list_id" value="$PARAM[list_id]"/>
 				</include>
@@ -86,6 +86,18 @@
 						<include content="InfoWallMovieLayout">
 							<param name="focused" value="false" />
 						</include>
+						<!-- Movie/TV show title -->
+						<control type="label">
+							<left>40</left>
+							<right>-35</right>
+							<top>380</top>
+							<bottom>0</bottom>
+							<aligny>left</aligny>
+							<scroll>false</scroll>
+							<font>font27</font>
+							<label>$INFO[ListItem.Label]</label>
+							<shadowcolor>text_shadow</shadowcolor>
+						</control>
 					</control>
 				</itemlayout>
 				<focusedlayout width="310" height="486">
@@ -93,15 +105,21 @@
 						<depth>DepthContentPopout</depth>
 						<left>68</left>
 						<top>10</top>
-						<animation type="Focus">
-							<effect type="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="230,130" />
-						</animation>
-						<animation type="Unfocus">
-							<effect type="zoom" start="110" end="100" time="200" tween="sine" easing="inout" center="230,130" />
-						</animation>
 						<include content="InfoWallMovieLayout">
 							<param name="focused" value="true" />
 						</include>
+						<!-- Movie/TV show title -->
+						<control type="label">
+							<left>40</left>
+							<right>-35</right>
+							<top>380</top>
+							<bottom>0</bottom>
+							<aligny>left</aligny>
+							<scroll>true</scroll>
+							<font>font27</font>
+							<label>$INFO[ListItem.Label]</label>
+							<shadowcolor>text_shadow</shadowcolor>
+						</control>
 					</control>
 				</focusedlayout>
 				<content sortby="$PARAM[sortby]" sortorder="$PARAM[sortorder]" target="$PARAM[widget_target]" limit="15">$PARAM[content_path]</content>

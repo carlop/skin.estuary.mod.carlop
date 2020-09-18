@@ -30,7 +30,7 @@
 					<!-- Movie/TV show title -->
 					<control type="label">
 						<left>40</left>
-						<right>40</right>
+						<right>20</right>
 						<top>500</top>
 						<bottom>0</bottom>
 						<aligny>left</aligny>
@@ -51,7 +51,7 @@
 					<!-- Movie/TV show title -->
 					<control type="label">
 						<left>40</left>
-						<right>40</right>
+						<right>20</right>
 						<top>500</top>
 						<bottom>0</bottom>
 						<aligny>left</aligny>
