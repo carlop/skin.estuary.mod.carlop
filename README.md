@@ -7,9 +7,6 @@ Custom mod of Estuary skin for Kodi.
 - Custom color schemes based on Plex
 - Movie/TV Show title added
 
-![Movie/TV Show title](./screenshots/movie-tvshow-title.png "Movie/TV Show title")
-
-
 ## TODO
 - No zoom effect on focus (i don't like it)
 - Media flags on OSD
