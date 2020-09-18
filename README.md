@@ -21,4 +21,4 @@ Custom mod of Estuary skin for Kodi.
 3. Install from zip
 
 ## Note
-Use at your own risk
+This mod is for personal use. Use at your own risk.
