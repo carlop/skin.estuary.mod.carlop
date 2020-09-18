@@ -27,6 +27,7 @@
 						<top>120</top>
 						<include>InfoWallMovieLayout</include>
 					</control>
+					<!-- Movie/TV show title -->
 					<control type="label">
 						<left>40</left>
 						<right>40</right>
@@ -47,6 +48,7 @@
 							<param name="focused" value="true" />
 						</include>
 					</control>
+					<!-- Movie/TV show title -->
 					<control type="label">
 						<left>40</left>
 						<right>40</right>
