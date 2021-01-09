@@ -94,8 +94,20 @@
 							<bottom>0</bottom>
 							<aligny>left</aligny>
 							<scroll>false</scroll>
-							<font>font27</font>
+							<font>font25_title</font>
 							<label>$INFO[ListItem.Label]</label>
+							<shadowcolor>text_shadow</shadowcolor>
+						</control>
+						<!-- Movie/TV show year -->
+						<control type="label">
+							<left>40</left>
+							<right>20</right>
+							<top>420</top>
+							<bottom>0</bottom>
+							<aligny>left</aligny>
+							<scroll>false</scroll>
+							<font>font10</font>
+							<label>$INFO[ListItem.Year]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 					</control>
@@ -116,8 +128,20 @@
 							<bottom>0</bottom>
 							<aligny>left</aligny>
 							<scroll>true</scroll>
-							<font>font27</font>
+							<font>font25_title</font>
 							<label>$INFO[ListItem.Label]</label>
+							<shadowcolor>text_shadow</shadowcolor>
+						</control>
+						<!-- Movie/TV show year -->
+						<control type="label">
+							<left>40</left>
+							<right>20</right>
+							<top>420</top>
+							<bottom>0</bottom>
+							<aligny>left</aligny>
+							<scroll>false</scroll>
+							<font>font10</font>
+							<label>$INFO[ListItem.Year]</label>
 							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 					</control>
