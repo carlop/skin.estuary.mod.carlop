@@ -63,6 +63,9 @@
 					<include content="MediaFlag">
 						<param name="texture" value="$INFO[VideoPlayer.VideoCodec,flags/videocodec/,.png]" />
 					</include>
+					<include content="MediaFlag">
+						<param name="texture" value="$INFO[VideoPlayer.VideoResolution,flags/videoresolution/,.png]" />
+					</include>
 				</control>
 				<control type="grouplist">
 					<right>20</right>
