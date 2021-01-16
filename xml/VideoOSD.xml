@@ -28,7 +28,7 @@
 				<bottom>140</bottom>
 				<height>575</height>
 				<width>400</width>
-				<texture>$INFO[VideoPlayer.Cover]</texture>
+				<texture>$VAR[NowPlayingPosterVar]</texture>
 				<aspectratio>scale</aspectratio>
 				<bordertexture border="21">overlays/shadow.png</bordertexture>
 				<bordersize>20</bordersize>
