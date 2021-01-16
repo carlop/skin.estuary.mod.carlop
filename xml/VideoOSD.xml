@@ -214,12 +214,6 @@
 					<ondown condition="Control.HasFocus(255)">13103</ondown>
 					<onleft>606</onleft>
 					<onright>600</onright>
-					<control type="radiobutton" id="70040">
-						<include content="OSDButton">
-							<param name="texture" value="osd/fullscreen/buttons/information.png"/>
-						</include>
-						<onclick>Info</onclick>
-					</control>
 					<control type="radiobutton" id="70041">
 						<include content="OSDButton">
 							<param name="texture" value="osd/fullscreen/buttons/channels.png"/>
