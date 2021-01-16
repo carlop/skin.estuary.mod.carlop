@@ -21,7 +21,7 @@
 				<bottom>120</bottom>
 				<width>100%</width>
 				<height>350</height>
-				<texture>frame/osdfade.png</texture>
+				<texture>frame/VideoOSDInfoBack.png</texture>
 			</control> 
 			<control type="image">
 				<left>10</left>
