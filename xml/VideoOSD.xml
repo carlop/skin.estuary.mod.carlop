@@ -41,14 +41,23 @@
 				<itemgap>50</itemgap>
 				<control type="label">
 					<left>200</left>
+					<label>$INFO[VideoPlayer.Title] ([COLOR button_focus]$INFO[VideoPlayer.Year][/COLOR])</label>
+					<font>font36_title</font>
+					<shadowcolor>text_shadow</shadowcolor>
+					<visible>VideoPlayer.Content(movies)</visible>
+				</control>
+				<control type="label">
+					<left>200</left>
 					<label>$INFO[VideoPlayer.TVShowTitle] ([COLOR button_focus]$INFO[VideoPlayer.Year][/COLOR])</label>
 					<font>font37</font>
 					<shadowcolor>text_shadow</shadowcolor>
+					<visible>VideoPlayer.Content(episodes)</visible>
 				</control>
 				<control type="label">
 					<label>[COLOR button_focus]S$INFO[VideoPlayer.Season]E$INFO[VideoPlayer.Episode]:[/COLOR] $INFO[VideoPlayer.Title]</label>
 					<font>font36_title</font>
 					<shadowcolor>text_shadow</shadowcolor>
+					<visible>VideoPlayer.Content(episodes)</visible>
 				</control>
 				<control type="grouplist">
 					<align>left</align>
