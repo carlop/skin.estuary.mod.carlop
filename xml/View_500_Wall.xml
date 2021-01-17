@@ -56,33 +56,39 @@
 					<control type="group">
 						<depth>DepthContentPopout</depth>
 						<top>120</top>
+						<animation type="Focus">
+							<effect type="zoom" start="100" end="105" time="200" tween="sine" easing="inout" center="230,130" />
+						</animation>
+						<animation type="Unfocus">
+							<effect type="zoom" start="105" end="100" time="200" tween="sine" easing="inout" center="230,130" />
+						</animation>
 						<include content="InfoWallMovieLayout">
 							<param name="focused" value="true" />
 						</include>
-					</control>
-					<!-- Movie/TV show title -->
-					<control type="label">
-						<left>40</left>
-						<right>20</right>
-						<top>500</top>
-						<bottom>0</bottom>
-						<aligny>left</aligny>
-						<scroll>true</scroll>
-						<font>font25_title</font>
-						<label>$INFO[ListItem.Label]</label>
-						<shadowcolor>text_shadow</shadowcolor>
-					</control>
-					<!-- Movie/TV show year -->
-					<control type="label">
-						<left>40</left>
-						<right>20</right>
-						<top>540</top>
-						<bottom>0</bottom>
-						<aligny>left</aligny>
-						<scroll>false</scroll>
-						<font>font10</font>
-						<label>$INFO[ListItem.Year]</label>
-						<shadowcolor>text_shadow</shadowcolor>
+						<!-- Movie/TV show title -->
+						<control type="label">
+							<left>40</left>
+							<right>20</right>
+							<top>380</top>
+							<bottom>0</bottom>
+							<aligny>left</aligny>
+							<scroll>true</scroll>
+							<font>font25_title</font>
+							<label>$INFO[ListItem.Label]</label>
+							<shadowcolor>text_shadow</shadowcolor>
+						</control>
+						<!-- Movie/TV show year -->
+						<control type="label">
+							<left>40</left>
+							<right>20</right>
+							<top>420</top>
+							<bottom>0</bottom>
+							<aligny>left</aligny>
+							<scroll>false</scroll>
+							<font>font10</font>
+							<label>$INFO[ListItem.Year]</label>
+							<shadowcolor>text_shadow</shadowcolor>
+						</control>
 					</control>
 				</focusedlayout>
 				<itemlayout height="301" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
