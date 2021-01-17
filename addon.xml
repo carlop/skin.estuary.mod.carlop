@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.estuary.mod.carlop" version="1.0.4" name="Estuary Carlop Mod" provider-name="carlop">
+<addon id="skin.estuary.mod.carlop" version="1.0.5" name="Estuary Carlop Mod" provider-name="carlop">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
