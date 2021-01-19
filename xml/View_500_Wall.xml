@@ -9,7 +9,7 @@
 			<include>Visible_Right</include>
 			<control type="panel" id="500">
 				<left>0</left>
-				<top>100</top>
+				<top>0</top>
 				<width>98%</width>
 				<height>100%</height>
 				<onleft>9000</onleft>
